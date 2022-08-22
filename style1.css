@@ -1,0 +1,52 @@
+* {
+  box-sizing: border-box;
+}
+table,
+form {
+  width: 500px;
+  margin: 20px auto;
+}
+table {
+  border-collapse: collapse;
+  text-align: center;
+}
+table td,
+table th {
+  border: solid 1px black;
+}
+label,
+input {
+  display: block;
+  margin: 10px 0;
+  font-size: 20px;
+}
+button {
+  display: block;
+  cursor: pointer;
+}
+
+li {
+  height: 30px;
+  font-size: 1.5rem;
+}
+.info {
+  padding: 5px;
+}
+.editer {
+  background-color: green;
+  max-width: 50px;
+  padding: 2px;
+  color: white;
+  font-size: 0.5em;
+  margin: 0 2px;
+  cursor: pointer;
+}
+.del {
+  background-color: red;
+  max-width: 50px;
+  padding: 2px;
+  color: white;
+  font-size: 0.5em;
+  margin: 0 2px;
+  cursor: pointer;
+}
